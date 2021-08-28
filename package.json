@@ -6,7 +6,6 @@
   "scripts": {
     "dev": "ts-node-dev --inspect --transpile-only --ignore-watch node_modules --respawn src/server.ts",
     "lint:fix": "eslint --fix . --ext ts,tsx",
-    "test": "jest"
   },
   "dependencies": {
     "express": "^4.17.1",
